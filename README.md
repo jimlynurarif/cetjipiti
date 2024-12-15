@@ -65,14 +65,14 @@ The **UNSW-NB15** dataset is a collection of network traffic data, including var
    ```
 3. Select the desired notebook file and follow its instructions.
 
-## Group Task Distribution
+## Group 
 
-| Nama Anggota         | NIM        | Contribution                      |
-|----------------------|------------|-----------------------------------|
-| Jimly Nur Arif       | 13522123   | Implementasi ID3                  |
-| Yosef Rafael Joshua  | 13522133   | Implementasi Gaussian Naive Bayes |
-| Samy Muhammad Haikal | 13522151   | Implementasi KNN                  |
-| Muhammad Roihan      | 13522152   | Propcessing And Splitting         |
+| Nama Anggota         | NIM        | 
+|----------------------|------------|
+| Jimly Nur Arif       | 13522123   | 
+| Yosef Rafael Joshua  | 13522133   | 
+| Samy Muhammad Haikal | 13522151   | 
+| Muhammad Roihan      | 13522152   | 
 
 ## License
 
