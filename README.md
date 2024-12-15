@@ -1,84 +1,84 @@
-# Tugas Besar 2 IF3170 - Inteligensi Artifisial 2024/2025
+# Big Project 2 IF3170 - Artificial Intelligence 2024/2025
 
-## Deskripsi
+## Description
 
-Repository ini berisi implementasi algoritma pembelajaran mesin **K-Nearest Neighbors (KNN)**, **Gaussian Naive Bayes**, dan **ID3 (Iterative Dichotomiser 3)**, yang diterapkan pada dataset **UNSW-NB15**. Tujuan tugas ini adalah untuk memberikan pengalaman langsung dalam menerapkan algoritma pembelajaran mesin pada masalah nyata serta membandingkan hasil implementasi "from scratch" dengan library scikit-learn.
+This repository contains the implementation of machine learning algorithms **K-Nearest Neighbors (KNN)**, **Gaussian Naive Bayes**, and **ID3 (Iterative Dichotomiser 3)** applied to the **UNSW-NB15** dataset. The goal of this project is to provide hands-on experience in applying machine learning algorithms to real-world problems and comparing "from scratch" implementations with scikit-learn's library.
 
-## Struktur Repository
+## Repository Structure
 
-- `src/` : Folder ini berisi source code implementasi algoritma dan eksperimen.
-- `doc/` : Folder ini berisi laporan dalam format PDF, termasuk penjelasan teknis dan hasil eksperimen.
-- `README.md` : Dokumen ini berisi panduan untuk memahami dan menjalankan proyek.
+- `src/` : This folder contains the source code for the algorithm implementations and experiments.
+- `doc/` : This folder contains the report in PDF format, including technical explanations and experimental results.
+- `README.md` : This document contains guidelines for understanding and running the project.
 
 ## Dataset
 
-Dataset **UNSW-NB15** adalah kumpulan data lalu lintas jaringan yang mencakup berbagai jenis serangan siber dan aktivitas normal. Dataset dapat diakses melalui tautan berikut:
-- [Dataset di Kaggle](https://www.kaggle.com/t/ddd18d90f93a47e48f8850b1f1592381)
+The **UNSW-NB15** dataset is a collection of network traffic data, including various types of cyberattacks and normal activities. The dataset can be accessed via the following links:
+- [Dataset on Kaggle](https://www.kaggle.com/t/ddd18d90f93a47e48f8850b1f1592381)
 - [UNSW Research](https://research.unsw.edu.au/projects/unsw-nb15-dataset)
 
-## Fitur Utama
+## Key Features
 
-1. **Implementasi KNN (from scratch)**:
-   - Mendukung parameter jumlah tetangga.
-   - Mendukung 3 metrik jarak: Euclidean, Manhattan, dan Minkowski.
+1. **KNN Implementation (from scratch)**:
+   - Supports the number of neighbors as a parameter.
+   - Supports 3 distance metrics: Euclidean, Manhattan, and Minkowski.
 
-2. **Implementasi Gaussian Naive Bayes (from scratch)**.
+2. **Gaussian Naive Bayes Implementation (from scratch)**.
 
-3. **Implementasi ID3 (from scratch)**:
-   - Mendukung pemrosesan data numerik sesuai materi kuliah.
+3. **ID3 Implementation (from scratch)**:
+   - Supports numerical data processing as discussed in the lecture material.
 
-4. **Perbandingan hasil implementasi dengan library scikit-learn**:
-   - Untuk ID3, digunakan `DecisionTreeClassifier` dengan parameter `criterion='entropy'`.
+4. **Comparison of Implementation Results with scikit-learn Library**:
+   - For ID3, `DecisionTreeClassifier` with the parameter `criterion='entropy'` is used.
 
 5. **Model Persistence**:
-   - Model dapat disimpan dan dimuat kembali dalam berbagai format seperti `.pkl` atau `.txt`.
+   - Models can be saved and loaded in various formats such as `.pkl` or `.txt`.
 
 ## Setup
 
-### Prasyarat
-- Python 3.8 atau lebih baru.
-- Library yang diperlukan:
+### Prerequisites
+- Python 3.8 or newer.
+- Required libraries:
   - `numpy`
   - `pandas`
   - `scikit-learn`
 
-### ⬇️Instalasi
-1. Clone repository ini:
+### Installation
+1. Clone this repository:
    ```bash
    git clone https://github.com/jimlynurarif/cetjipiti.git
    ```
-2. Masuk ke direktori cetjipiti:
+2. Navigate to the repository directory:
    ```bash
    cd cetjipiti
    ```
-3. Install dependensi:
+3. Install dependencies:
    ```bash
    pip install -r requirements.txt
    ```
 
-## 🏃‍♂️Cara Menjalankan
+## How to Run
 
-1. Pastikan dataset sudah disiapkan di direktori yang sesuai.
-2. Jalankan notebook untuk melakukan eksperimen:
+1. Ensure the dataset is prepared in the appropriate directory.
+2. Run the notebook to perform experiments:
    ```bash
    jupyter notebook
    ```
-3. Pilih file notebook yang ingin dijalankan
+3. Select the desired notebook file and follow its instructions.
 
-## Pembagian Tugas Kelompok
+## Group Task Distribution
 
-| Nama Anggota         | NIM        | Kontribusi                        |
+| Nama Anggota         | NIM        | Contribution                      |
 |----------------------|------------|-----------------------------------|
 | Jimly Nur Arif       | 13522123   | Implementasi ID3                  |
 | Yosef Rafael Joshua  | 13522133   | Implementasi Gaussian Naive Bayes |
 | Samy Muhammad Haikal | 13522151   | Implementasi KNN                  |
 | Muhammad Roihan      | 13522152   | Propcessing And Splitting         |
 
-## 🪪Lisensi
+## License
 
-Proyek ini dilindungi oleh lisensi [MIT License](LICENSE).
+This project is licensed under the [MIT License](LICENSE).
 
-## Referensi
+## References
 
 - [The UNSW-NB15 Dataset](https://research.unsw.edu.au/projects/unsw-nb15-dataset)
 - [K-Nearest Neighbor (KNN) Algorithm](https://www.geeksforgeeks.org/k-nearest-neighbours/)
